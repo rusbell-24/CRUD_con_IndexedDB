@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>CRUD con IndexedDB</title>
+</head>
+<body>
+    <h1 id="title" class="title">CRUD con IndexedDB</h1>
+    <h2 class="autor">Rusbell ruiz portocarrero</h2>
+    <div id="container" class="container">
+        <div id="btn-New-Register" class="btn-New-Register">
+            <button id="agregar" class="agregar">Agregar Registro</button>
+        </div>
+        <form id="form" name = 'form'class="form">
+            <input type="text"  name="nombre" placeholder="Nombre">
+            <input type="text" name="apellido" placeholder="Apellidos">
+            <input type="text" name="ciudad" placeholder="Ciudad Nacimiento">
+            <input type="submit" id="add" name="add" data-type="agregar"
+            data-action="add" class="add" value="Agregar"></input>
+            <button id="cancel" data-type="cancelar" name="cancel" class="cancel">Cancelar</button>
+        </form>
+    </div>
+    <hr>
+    <div class="tb-contenido">
+        <table id="tabla" class="table">
+            <thead name="head">
+                <tr class="encabezado">
+                    <td>Nombres</td>
+                    <td>Apellidos</td>
+                    <td>Ciudad de Nacimiento</td>
+                    <td>Accion</td>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+body{
+    max-width: 100vw;
+    font-family: sans-serif;
+    background-color: rgb(12, 12, 36);
+    max-width: 100%;
+    color: white;
+    text-align: center;
+}
+.title{
+    margin-bottom: 0;
+}
+.autor{
+    font-family:cursive;
+    font-size:smaller;
+    margin-bottom: 5%;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 20px;
+}
+
+.btn-New-Register{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.form{
+    /* display: flex; */
+    display: none;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    padding: 0;
+    margin: 0;
+
+}
+
+input{
+    text-align: center;
+    font-family: sans-serif;
+    width: 20%;
+    margin: 0.3rem;
+}
+button, .add, .cancel{
+    background-color: #03b3ee;
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;  
+    margin: 0 5px;
+}
+.add:hover{
+    background-color: #033a4d;
+    border: 2px solid white;
+    color: white;
+}
+.cancel{
+    background-color: red;
+}
+.cancel:hover{
+    background-color: rgb(155, 9, 9);
+}
+
+button:hover{
+    background-color: #033a4d;
+    border: 3px solid rgb(215, 215, 219);
+    color: white;
+}
+
+.agregar{
+    display: block;
+    width: 80%;
+    height: 30px;
+}
+
+.tb-contenido{
+    display: flex;
+    justify-content: center;
+}
+.table{
+    background-color: rgb(241, 252, 249);
+    border: 1px solid white;
+    margin: 20px;
+    width: 90%;
+    padding: 0;
+    border-collapse: collapse;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+ 
+
+}
+.encabezado{
+    height: 30px;
+    background-color: rgb(65, 68, 67);
+    border: 1px solid black;
+    color: rgb(219, 216, 216);
+    font-size: 100px;
+}
+td{
+
+    text-align: center;
+    border: 1px solid black;
+    font-size:small;
+}
+.encabezado td{
+    font-size: large;
+}
+.update{
+    width: 30%;
+    background-color: rgb(224, 109, 15);
+    color: white;
+    border: 3px solid rgb(119, 58, 9);
+    margin: 5px 10px;
+}
+.update:hover{
+    background-color: rgb(228, 139, 66);
+    color: black;
+}
+.delete{
+    width: 30%;
+    background-color: red;
+    color: white;
+    border: 3px solid rgb(77, 3, 3);
+    margin: 5px;
+}
+.delete:hover{
+    background-color: rgb(247, 65, 65);
+    color: black;
+}
+
